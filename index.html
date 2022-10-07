@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img class="logoImg" src="imagenes/Logo.png" alt="Logo alura">
+                <h1 class="title">Encriptador</h1>
+            </div>
+            <div class="left">
+                <input class="textInput" id="textInput" type="text" placeholder="Ingrese su texto">
+            </div>
+            <div class="right">
+                <img src="imagenes/Muñeco.png" alt="Imagen de una persona" id="imageRight">
+                <h1 id="text">Ningún mensaje fué encontrado</h1>
+                <textarea id="text2" rows="8" cols="80">Ingrese el texto que deseas encriptar </textarea>
+                <button id="copy" onclick="copiar()">Copiar</button>
+            </div>
+            <div class="leftButton">
+                <p>Sólo letras minúsculas y sin acentos</p>
+                <button id="encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+            
+        </div>
+     <footer>
+        <p>Giuliano Cian</p>
+     </footer>   
+    </body>
+
+</html>
